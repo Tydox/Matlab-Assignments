@@ -1,0 +1,10 @@
+Player			MIN	PTS	REB	ASS
+Raymond Felton		26	7	5	5
+Luc Mbah		27	6	1	0
+DeAndre Jordan		28	7	17	0
+JJ Redick		29	25	6	1
+Chris Paul		25	17	4	15
+Jamal Crawford		19	2	0	1
+Wesley Johnson		6	1	3	0
+Marreese Speights	7	7	2	1
+Brandon Bass		8	8	2	0
