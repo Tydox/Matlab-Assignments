@@ -1,6 +1,7 @@
 function [dial_vec] = atdt_real(str,Ld,Ls)
 %ATDT str = number, Ld = loud, Ls = space
 dial_vec = 0;
+fs=8000;
 for i=1:length(str)
     if (str(i) =='-' || str(i) =='+' || str(i) ==' ')
         continue
@@ -10,7 +11,6 @@ for i=1:length(str)
     dial_vec = [dial_vec, single_dtmf('m',fix(8000*Ls(i)))];    %add silent tone 50ms
 
 end
-
-
+plotSound(dial_vec,fs)
 end
 
